@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF68BF871DE53189001114D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68BF861DE53189001114D6 /* AppDelegate.swift */; };
+		CF68BF891DE53189001114D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68BF881DE53189001114D6 /* ViewController.swift */; };
+		CF68BF8C1DE53189001114D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF68BF8A1DE53189001114D6 /* Main.storyboard */; };
+		CF68BF8E1DE53189001114D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF68BF8D1DE53189001114D6 /* Assets.xcassets */; };
+		CF68BF911DE53189001114D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF68BF8F1DE53189001114D6 /* LaunchScreen.storyboard */; };
+		CF68BF9C1DE53189001114D6 /* PushPopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68BF9B1DE53189001114D6 /* PushPopTests.swift */; };
+		CF68BFA71DE53203001114D6 /* View2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68BFA61DE53203001114D6 /* View2ViewController.swift */; };
+		CF68BFA91DE53B1F001114D6 /* zing-mp3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF68BFA81DE53B1F001114D6 /* zing-mp3.jpg */; };
+		CF68BFAD1DE54239001114D6 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF68BFAC1DE54239001114D6 /* LaunchViewController.swift */; };
+		CF68BFAF1DE54BF2001114D6 /* hinh-nen-android-dep-8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF68BFAE1DE54BF2001114D6 /* hinh-nen-android-dep-8.jpg */; };
+		CF68BFB11DE55648001114D6 /* crossspring-jpg-28PFLd-clipart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF68BFB01DE55648001114D6 /* crossspring-jpg-28PFLd-clipart.jpg */; };
+		CF68BFB31DE5564D001114D6 /* download (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF68BFB21DE5564D001114D6 /* download (1).jpeg */; };
+		CF68BFB51DE55651001114D6 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CF68BFB41DE55651001114D6 /* download.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF68BF981DE53189001114D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF68BF7B1DE53189001114D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF68BF821DE53189001114D6;
+			remoteInfo = PushPop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF68BF831DE53189001114D6 /* PushPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF68BF861DE53189001114D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF68BF881DE53189001114D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF68BF8B1DE53189001114D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF68BF8D1DE53189001114D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF68BF901DE53189001114D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF68BF921DE53189001114D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF68BF971DE53189001114D6 /* PushPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF68BF9B1DE53189001114D6 /* PushPopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushPopTests.swift; sourceTree = "<group>"; };
+		CF68BF9D1DE53189001114D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF68BFA61DE53203001114D6 /* View2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2ViewController.swift; sourceTree = "<group>"; };
+		CF68BFA81DE53B1F001114D6 /* zing-mp3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zing-mp3.jpg"; sourceTree = "<group>"; };
+		CF68BFAC1DE54239001114D6 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		CF68BFAE1DE54BF2001114D6 /* hinh-nen-android-dep-8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hinh-nen-android-dep-8.jpg"; sourceTree = "<group>"; };
+		CF68BFB01DE55648001114D6 /* crossspring-jpg-28PFLd-clipart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "crossspring-jpg-28PFLd-clipart.jpg"; sourceTree = "<group>"; };
+		CF68BFB21DE5564D001114D6 /* download (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (1).jpeg"; sourceTree = "<group>"; };
+		CF68BFB41DE55651001114D6 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF68BF801DE53189001114D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF68BF941DE53189001114D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF68BF7A1DE53189001114D6 = {
+			isa = PBXGroup;
+			children = (
+				CF68BF851DE53189001114D6 /* PushPop */,
+				CF68BF9A1DE53189001114D6 /* PushPopTests */,
+				CF68BF841DE53189001114D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF68BF841DE53189001114D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF68BF831DE53189001114D6 /* PushPop.app */,
+				CF68BF971DE53189001114D6 /* PushPopTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF68BF851DE53189001114D6 /* PushPop */ = {
+			isa = PBXGroup;
+			children = (
+				CF68BF861DE53189001114D6 /* AppDelegate.swift */,
+				CF68BFAC1DE54239001114D6 /* LaunchViewController.swift */,
+				CF68BF881DE53189001114D6 /* ViewController.swift */,
+				CF68BFA61DE53203001114D6 /* View2ViewController.swift */,
+				CF68BF8A1DE53189001114D6 /* Main.storyboard */,
+				CF68BF8D1DE53189001114D6 /* Assets.xcassets */,
+				CF68BF8F1DE53189001114D6 /* LaunchScreen.storyboard */,
+				CF68BF921DE53189001114D6 /* Info.plist */,
+				CF68BFA81DE53B1F001114D6 /* zing-mp3.jpg */,
+				CF68BFAE1DE54BF2001114D6 /* hinh-nen-android-dep-8.jpg */,
+				CF68BFB01DE55648001114D6 /* crossspring-jpg-28PFLd-clipart.jpg */,
+				CF68BFB21DE5564D001114D6 /* download (1).jpeg */,
+				CF68BFB41DE55651001114D6 /* download.jpeg */,
+			);
+			path = PushPop;
+			sourceTree = "<group>";
+		};
+		CF68BF9A1DE53189001114D6 /* PushPopTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF68BF9B1DE53189001114D6 /* PushPopTests.swift */,
+				CF68BF9D1DE53189001114D6 /* Info.plist */,
+			);
+			path = PushPopTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF68BF821DE53189001114D6 /* PushPop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF68BFA01DE53189001114D6 /* Build configuration list for PBXNativeTarget "PushPop" */;
+			buildPhases = (
+				CF68BF7F1DE53189001114D6 /* Sources */,
+				CF68BF801DE53189001114D6 /* Frameworks */,
+				CF68BF811DE53189001114D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushPop;
+			productName = PushPop;
+			productReference = CF68BF831DE53189001114D6 /* PushPop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF68BF961DE53189001114D6 /* PushPopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF68BFA31DE53189001114D6 /* Build configuration list for PBXNativeTarget "PushPopTests" */;
+			buildPhases = (
+				CF68BF931DE53189001114D6 /* Sources */,
+				CF68BF941DE53189001114D6 /* Frameworks */,
+				CF68BF951DE53189001114D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF68BF991DE53189001114D6 /* PBXTargetDependency */,
+			);
+			name = PushPopTests;
+			productName = PushPopTests;
+			productReference = CF68BF971DE53189001114D6 /* PushPopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF68BF7B1DE53189001114D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Nhật Minh";
+				TargetAttributes = {
+					CF68BF821DE53189001114D6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					CF68BF961DE53189001114D6 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF68BF821DE53189001114D6;
+					};
+				};
+			};
+			buildConfigurationList = CF68BF7E1DE53189001114D6 /* Build configuration list for PBXProject "PushPop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF68BF7A1DE53189001114D6;
+			productRefGroup = CF68BF841DE53189001114D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF68BF821DE53189001114D6 /* PushPop */,
+				CF68BF961DE53189001114D6 /* PushPopTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF68BF811DE53189001114D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF68BFA91DE53B1F001114D6 /* zing-mp3.jpg in Resources */,
+				CF68BFB51DE55651001114D6 /* download.jpeg in Resources */,
+				CF68BFB31DE5564D001114D6 /* download (1).jpeg in Resources */,
+				CF68BFB11DE55648001114D6 /* crossspring-jpg-28PFLd-clipart.jpg in Resources */,
+				CF68BF911DE53189001114D6 /* LaunchScreen.storyboard in Resources */,
+				CF68BF8E1DE53189001114D6 /* Assets.xcassets in Resources */,
+				CF68BF8C1DE53189001114D6 /* Main.storyboard in Resources */,
+				CF68BFAF1DE54BF2001114D6 /* hinh-nen-android-dep-8.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF68BF951DE53189001114D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF68BF7F1DE53189001114D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF68BF891DE53189001114D6 /* ViewController.swift in Sources */,
+				CF68BFA71DE53203001114D6 /* View2ViewController.swift in Sources */,
+				CF68BF871DE53189001114D6 /* AppDelegate.swift in Sources */,
+				CF68BFAD1DE54239001114D6 /* LaunchViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF68BF931DE53189001114D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF68BF9C1DE53189001114D6 /* PushPopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF68BF991DE53189001114D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF68BF821DE53189001114D6 /* PushPop */;
+			targetProxy = CF68BF981DE53189001114D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF68BF8A1DE53189001114D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF68BF8B1DE53189001114D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF68BF8F1DE53189001114D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF68BF901DE53189001114D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF68BF9E1DE53189001114D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF68BF9F1DE53189001114D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF68BFA11DE53189001114D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PushPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ahahaha.PushPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF68BFA21DE53189001114D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PushPop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ahahaha.PushPop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CF68BFA41DE53189001114D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PushPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ahahaha.PushPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushPop.app/PushPop";
+			};
+			name = Debug;
+		};
+		CF68BFA51DE53189001114D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PushPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ahahaha.PushPopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PushPop.app/PushPop";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF68BF7E1DE53189001114D6 /* Build configuration list for PBXProject "PushPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF68BF9E1DE53189001114D6 /* Debug */,
+				CF68BF9F1DE53189001114D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF68BFA01DE53189001114D6 /* Build configuration list for PBXNativeTarget "PushPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF68BFA11DE53189001114D6 /* Debug */,
+				CF68BFA21DE53189001114D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF68BFA31DE53189001114D6 /* Build configuration list for PBXNativeTarget "PushPopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF68BFA41DE53189001114D6 /* Debug */,
+				CF68BFA51DE53189001114D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF68BF7B1DE53189001114D6 /* Project object */;
+}
