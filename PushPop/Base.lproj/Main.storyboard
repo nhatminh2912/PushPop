@@ -230,20 +230,12 @@
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSW-qz-Qn0">
-                                <rect key="frame" x="0.0" y="32" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="action_skip:" destination="J1q-HC-ibb" eventType="touchUpInside" id="ZOJ-0Z-m7I"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="akV-k3-U57"/>
                     <connections>
                         <outlet property="logo" destination="HXj-l3-RZH" id="t9F-P0-xcm"/>
-                        <outlet property="skip" destination="hSW-qz-Qn0" id="lVq-Kd-cPD"/>
                         <outlet property="ten" destination="M3d-zE-0EP" id="Seh-5n-B9T"/>
                         <outlet property="text" destination="LfE-yd-YNa" id="T9Q-6p-9Wl"/>
                     </connections>

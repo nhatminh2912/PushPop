@@ -35,15 +35,13 @@ class LaunchViewController: UIViewController {
                     self.ten!.center = CGPoint(x: self.logo!.center.x, y: 600)
                     self.ten!.alpha = 1
                     self.skip.isEnabled = true
+                    let v1 = self.storyboard?.instantiateViewController(withIdentifier: "V1") as! ViewController
+                    
+                    self.navigationController?.pushViewController(v1, animated: true)
                 })
+                
             })
         })
-    }
-    
-    @IBAction func action_skip(_ sender: UIButton) {
-        let v1 = self.storyboard?.instantiateViewController(withIdentifier: "V1") as! ViewController
-        
-        self.navigationController?.pushViewController(v1, animated: true)
     }
     
 
